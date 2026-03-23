@@ -19,7 +19,7 @@ read_input_yn() {
     echo
 }
 
-REPO_URL="https://github.com/tweopi/3xui-shopbot.git"
+REPO_URL="https://github.com/Monolit-service/Mono-BOT2/blob/main/Monolit2/install.sh"
 PROJECT_DIR="3xui-shopbot"
 NGINX_CONF_FILE="/etc/nginx/sites-available/${PROJECT_DIR}.conf"
 
