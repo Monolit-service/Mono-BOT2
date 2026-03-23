@@ -19,7 +19,7 @@ read_input_yn() {
     echo
 }
 
-REPO_URL="https://github.com/Monolit-service/Mono-BOT2/blob/main/Monolit2/install.sh"
+REPO_URL="https://github.com/Monolit-service/Mono-BOT2.git"
 PROJECT_DIR="Monolit2"
 NGINX_CONF_FILE="/etc/nginx/sites-available/${PROJECT_DIR}.conf"
 
