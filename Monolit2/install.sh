@@ -20,7 +20,7 @@ read_input_yn() {
 }
 
 REPO_URL="https://github.com/Monolit-service/Mono-BOT2/blob/main/Monolit2/install.sh"
-PROJECT_DIR="3xui-shopbot"
+PROJECT_DIR="Monolit2"
 NGINX_CONF_FILE="/etc/nginx/sites-available/${PROJECT_DIR}.conf"
 
 echo -e "${GREEN}--- Запуск скрипта установки/обновления 3xui-ShopBot ---${NC}"
