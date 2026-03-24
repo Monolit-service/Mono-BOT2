@@ -1,6 +1,6 @@
 services:
   Mono-BOT2:
-    build: ./volumes/app/project
+    build: ./app/project
     restart: unless-stopped
     ports:
       - '1488:1488'
