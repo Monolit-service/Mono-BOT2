@@ -1,9 +1,9 @@
 services:
   Mono-BOT2:
-    build: ./app/project
+    build: .
     restart: unless-stopped
     ports:
-      - '1488:1488'
+      - '443:443'
     volumes:
       - .:/app/project
     container_name: Mono-BOT2
