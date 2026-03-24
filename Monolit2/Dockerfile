@@ -6,4 +6,4 @@ ENV PATH="/app/.venv/bin:$PATH"
 COPY . /app/project/
 WORKDIR /app/project
 RUN pip install --no-cache-dir -e .
-CMD ["python3", "-m", "shop_bot"]
+CMD ["python3", "-m", "MONO_Service"]
